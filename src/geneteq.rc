@@ -1,0 +1,8 @@
+// Crate linkage metadata
+#[link(name = "geneteq", vers = "0.1", author = "Per Arneng")];
+
+// Make a library ("bin" is the default)
+#[crate_type = "lib"];
+
+mod model;
+
